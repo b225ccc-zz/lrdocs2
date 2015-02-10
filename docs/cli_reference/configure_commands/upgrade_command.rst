@@ -7,7 +7,7 @@ Configure version to use to reload the system.
 
 Use
 """
-Whenever you upgrade LineRate, the system retains the previous version, including all configuration settings at the time of the upgrade. If needed, you can reload any previous version by setting the version you want to reload using the boot command.
+Whenever you upgrade LR, the system retains the previous version, including all configuration settings at the time of the upgrade. If needed, you can reload any previous version by setting the version you want to reload using the boot command.
 
 To see the previous versions available, use the following commands:
 ::
@@ -30,7 +30,7 @@ Syntax
 
     boot system <version>
 
-Configure version of LineRate to reload
+Configure version of LR to reload
 
 +------------+--------+--------------------+
 | Parameter  | Type   | Description        |

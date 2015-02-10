@@ -1,4 +1,0 @@
-About This Guide
------------------
-
-blah

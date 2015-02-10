@@ -1,4 +1,4 @@
-LineRate Manager Guide
+LR Manager Guide
 =======================
 
 Overview

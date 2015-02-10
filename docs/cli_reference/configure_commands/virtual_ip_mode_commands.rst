@@ -8,7 +8,7 @@ Create or modify a virtual IP for reverse proxy (load balancing) or forward prox
 
 Use
 ^^^
-For either a load balancing or forward proxy use case, the system requires at least one virtual IP. The virtual IP is a configuration object that represents the interface that clients connect to. You can create as many virtual IPs as you need. For an overview of how virtual IPs are used in a load balancing use case, see LineRate Overview.
+For either a load balancing or forward proxy use case, the system requires at least one virtual IP. The virtual IP is a configuration object that represents the interface that clients connect to. You can create as many virtual IPs as you need. For an overview of how virtual IPs are used in a load balancing use case, see LR Overview.
 
 We recommend giving each virtual IP a meaningful name that helps identify the virtual IP. For example, you might use the application or service type (such as serving similar web content) or security settings (such as SSL) in the name.
 
@@ -60,7 +60,7 @@ Create or modify a virtual IP base for virtual IPs to inherit
 ::
     no base
 
-Configure version of LineRate to reload
+Configure version of LR to reload
 
 +-------------+----------+---------------------------------------------------------------------------+
 | Parameter   | Type     | Description                                                               |
