@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# LineRate Product Documentation documentation build configuration file, created by
+# LR Product Documentation documentation build configuration file, created by
 # sphinx-quickstart on Tue Feb 10 11:01:53 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'LineRate'
-copyright = u'2015, The LineRate Team'
+project = u'LR'
+copyright = u'2015, The LR Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -181,7 +181,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'LineRateProductDocumentationdoc'
+htmlhelp_basename = 'LRProductDocumentationdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,8 +201,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'LineRateProductDocumentation.tex', u'LineRate Product Documentation Documentation',
-   u'The LineRate Team', 'manual'),
+  ('index', 'LRProductDocumentation.tex', u'LR Product Documentation Documentation',
+   u'The LR Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -231,8 +231,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'linerateproductdocumentation', u'LineRate Product Documentation Documentation',
-     [u'The LineRate Team'], 1)
+    ('index', 'linerateproductdocumentation', u'LR Product Documentation Documentation',
+     [u'The LR Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -245,8 +245,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'LineRateProductDocumentation', u'LineRate Product Documentation Documentation',
-   u'The LineRate Team', 'LineRateProductDocumentation', 'One line description of project.',
+  ('index', 'LRProductDocumentation', u'LR Product Documentation Documentation',
+   u'The LR Team', 'LRProductDocumentation', 'One line description of project.',
    'Miscellaneous'),
 ]
 
