@@ -12,7 +12,7 @@ Welcome to the LR documentation!
 
     getting_started
     cli_reference/index
-    linerate_manager/*
+    lr_manager/*
 
 
 Indices and tables
