@@ -25,6 +25,10 @@ If a virtual IP has a specific IP assigned to it that falls within the range of 
 
 The system handles routed virtual IPs. Even if you set a large range of IP addresses for a virtual IP, the system only sends an ARP reply if an IP address in the range is configured on an interface. However, the system will accept traffic for any IP address in the range.
 
+.. image:: /img/LineRateLBOverview.png
+    :width: 600px
+    :align: center
+
 Command Mode
 ^^^^^^^^^^^^
 configure
