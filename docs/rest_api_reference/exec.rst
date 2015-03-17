@@ -15,8 +15,10 @@ Download the upgrade file, which has the extension ``.upg.gz``, to the LineRate 
 
 If you download the file to a web server on your intranet, you can copy the file to your LineRate system one of the following ways:
 
-- Use ``scp`` to copy the file to the ``/home/linerate`` directory.
-- Use the following REST node: ``/exec/system/util/download``.
+- Use ``scp`` to copy the file to the ``/home/linerate`` directory
+- Use the following REST node: ``/exec/system/util/download_``
+
+.. _download: http://#
 
 .. caution:: We recommend upgrading during a maintenance window. The upgrade process causes a system reload. During the reload, you will lose all connections to the LineRate system for at least a few minutes.
 
@@ -34,7 +36,7 @@ Data object
 +-------------+----------+---------------------------------------------------------------------------+
 
 Example
----------
+---------------
 
 PUT
 ^^^^
