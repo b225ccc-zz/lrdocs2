@@ -1,14 +1,12 @@
 REST API Reference
 ==================
 
-Overview
-""""""""
+This guide describes how to use the REpresentational State Transfer (REST) API that LineRate provides.
 
 Contents
 """"""""
 
 .. toctree::
-    :maxdepth: 2
     :glob:
     
     exec

@@ -7,7 +7,7 @@ Welcome to the LR documentation!
 ==========================================================
 
 .. toctree::
-    :maxdepth: 10
+    :maxdepth: 1
     :glob:
 
     getting_started
