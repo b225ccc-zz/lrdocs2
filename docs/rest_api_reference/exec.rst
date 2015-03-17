@@ -24,13 +24,13 @@ If you download the file to a web server on your intranet, you can copy the file
 The upgrade command may also be used to install an earlier version of software (to "downgrade") in limited circumstances. If the earlier version of software is already installed, you should use the boot system command to switch to that version of software. If the earlier version of software is not installed, the LineRate only supports installing the maintenance release immediately prior to the currently running software version via the upgrade process. To find the prior version of software that can be used with the upgrade process, see the release notes for your currently running software version.
 
 Request Format
------------------
+~~~~~~~~~~~~~~~~~
 
-+----------------------+------------+
-| **Methods**          | ``PUT``    |
-+----------------------+------------+
-| **Default Allowed**  | ``False``  |
-+----------------------+------------+
++-----------------------+------------+
+| **Supported Methods** | ``PUT``    |
++-----------------------+------------+
+| **Default Allowed**   | ``False``  |
++-----------------------+------------+
 
 Data
 ********
@@ -38,7 +38,7 @@ Data
 +----------------------+------------+
 | **Data Type**        | ``json``   |
 +----------------------+------------+
-| **Default Value**    | ``null``   |
+| **Default Value**    | ``""``     |
 +----------------------+------------+
 
 Parameters
@@ -52,7 +52,7 @@ Parameters
 +---------------+----------+---------------------------------------------------------------------------+
 
 Example
----------------
+~~~~~~~~~~~~~~~~~
 
 PUT
 ^^^^
@@ -71,4 +71,11 @@ Response
 
 data.json
 ::
-    { “img”: "/tmp/upgrade.img.gz", “filename”: "upgrade.img.gz" }
+    { 
+      "data": {
+        “img”: "/tmp/upgrade.img.gz",
+        “filename”: "upgrade.img.gz"
+      },
+      "type": "json",
+      "default": False
+    }
