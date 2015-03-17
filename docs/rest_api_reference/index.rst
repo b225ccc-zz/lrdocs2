@@ -8,8 +8,8 @@ Contents
 """"""""
 
 .. toctree::
-    :maxdepth: 10
+    :maxdepth: 2
     :glob:
     
     exec
-    status
+    status/*
