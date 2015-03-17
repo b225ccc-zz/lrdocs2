@@ -23,9 +23,8 @@ If you download the file to a web server on your intranet, you can copy the file
 
 The upgrade command may also be used to install an earlier version of software (to "downgrade") in limited circumstances. If the earlier version of software is already installed, you should use the boot system command to switch to that version of software. If the earlier version of software is not installed, the LineRate only supports installing the maintenance release immediately prior to the currently running software version via the upgrade process. To find the prior version of software that can be used with the upgrade process, see the release notes for your currently running software version.
 
-**Supported Methods**: PUT
-
-**Default Allowed**: No
+Request
+-----------------
 
 +-----------------------+------------+
 | **Supported Methods** | PUT        |
@@ -33,23 +32,26 @@ The upgrade command may also be used to install an earlier version of software (
 | **Default Allowed**   | No         |
 +-----------------------+------------+
 
+Data key
+~~~~~~~~~~~
+
 +----------------------+------------+
-| **Data Type**        | ``json``   |
+| **Type**             | ``json``   |
 +----------------------+------------+
 | **Default Value**    | ``""``     |
 +----------------------+------------+
 
-Data Key Parameters
+Parameters
 
-+---------------+----------+---------------------------------------------------------------------------+
-| Name          | Type     | Description                                                               |
-+===============+==========+===========================================================================+
-| ``img``       | string   | The path of the downloaded upgrade image                                  |
-+---------------+----------+---------------------------------------------------------------------------+
-| ``filename``  | string   | The name of the upgrade file                                              |
-+---------------+----------+---------------------------------------------------------------------------+
++---------------+----------+----------+-----------------------------------------------------------------+
+| Name          | Type     | Required | Description                                                     |
++===============+==========+==========+=================================================================+
+| img           | string   | Yes      | The path of the downloaded upgrade image                        |
++---------------+----------+----------+-----------------------------------------------------------------+
+| filename      | string   | Yes      | The name of the upgrade file                                    |
++---------------+----------+----------+-----------------------------------------------------------------+
 
-Example - PUT
+Example PUT
 ----------------
 
 Request
