@@ -1,7 +1,7 @@
 =========================
 /exec/system/util/upgrade
 =========================
-Upgrade the system software
+Upgrades the system software
 
 Usage
 ----------
