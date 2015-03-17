@@ -23,17 +23,15 @@ If you download the file to a web server on your intranet, you can copy the file
 
 The upgrade command may also be used to install an earlier version of software (to "downgrade") in limited circumstances. If the earlier version of software is already installed, you should use the boot system command to switch to that version of software. If the earlier version of software is not installed, the LineRate only supports installing the maintenance release immediately prior to the currently running software version via the upgrade process. To find the prior version of software that can be used with the upgrade process, see the release notes for your currently running software version.
 
-Request Format
-~~~~~~~~~~~~~~~~~
+**Supported Methods**: PUT
+
+**Default Allowed**: No
 
 +-----------------------+------------+
-| **Supported Methods** | ``PUT``    |
+| **Supported Methods** | PUT        |
 +-----------------------+------------+
-| **Default Allowed**   | ``False``  |
+| **Default Allowed**   | No         |
 +-----------------------+------------+
-
-Data
-********
 
 +----------------------+------------+
 | **Data Type**        | ``json``   |
@@ -41,7 +39,7 @@ Data
 | **Default Value**    | ``""``     |
 +----------------------+------------+
 
-Parameters
+Data Key Parameters
 
 +---------------+----------+---------------------------------------------------------------------------+
 | Name          | Type     | Description                                                               |
@@ -52,7 +50,7 @@ Parameters
 +---------------+----------+---------------------------------------------------------------------------+
 
 Example - PUT
-~~~~~~~~~~~~~~~~~
+----------------
 
 Request
 ::
