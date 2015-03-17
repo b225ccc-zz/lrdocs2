@@ -51,11 +51,8 @@ Parameters
 | ``filename``  | string   | The name of the upgrade file                                              |
 +---------------+----------+---------------------------------------------------------------------------+
 
-Example
+Example - PUT
 ~~~~~~~~~~~~~~~~~
-
-PUT
-^^^^
 
 Request
 ::
@@ -73,9 +70,9 @@ data.json
 ::
     { 
       "data": {
-        “img”: "/tmp/upgrade.img.gz",
-        “filename”: "upgrade.img.gz"
+        "img": "/tmp/upgrade.img.gz",
+        "filename": "upgrade.img.gz"
       },
       "type": "json",
-      "default": False
+      "default": false
     }
