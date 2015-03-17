@@ -4,7 +4,7 @@
 Stuff
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 10
     :glob:
     
     uptime
