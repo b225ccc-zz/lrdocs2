@@ -8,7 +8,7 @@ Contents
 """"""""
 
 .. toctree::
-    :maxdepth: 10
+    :maxdepth: 1
     :glob:
     
     exec
