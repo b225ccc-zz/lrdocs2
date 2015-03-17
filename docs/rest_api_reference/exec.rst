@@ -5,14 +5,16 @@ Upgrade the system software
 Usage
 ----------
 Use to upgrade LROS software to a new version. The upgrade will retain all of your configuration and lets you roll back to a previously installed software version using either of the following:
+
 - CLI command: ``boot system``
 - REST node: ``/config/system/boot/version``
 
-To subscribe to software release notifications, contact your sales account representative.
+.. note:: To subscribe to software release notifications, contact your sales account representative.
 
 Download the upgrade file, which has the extension ``.upg.gz``, to the LineRate system or to a web server on your intranet. For where to go to download the upgrade file, see Downloads.
 
 If you download the file to a web server on your intranet, you can copy the file to your LineRate system one of the following ways:
+
 - Use ``scp`` to copy the file to the ``/home/linerate`` directory.
 - Use the following REST node: ``/exec/system/util/download``.
 
