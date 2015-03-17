@@ -1,5 +1,5 @@
-CLI Reference
-=============
+REST API Reference
+==================
 
 Overview
 """"""""
