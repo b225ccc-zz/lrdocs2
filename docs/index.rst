@@ -12,6 +12,7 @@ Welcome to the LR documentation!
 
     getting_started
     cli_reference/index
+    rest_api_reference/index
     lr_manager/*
 
 
