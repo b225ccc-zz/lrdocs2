@@ -12,3 +12,4 @@ Contents
     :glob:
     
     exec
+    status
