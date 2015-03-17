@@ -48,9 +48,9 @@ Response
     {
       "httpResponseCode": 200,
       "requestPath": "/exec/system/util/upgrade",
-      "recurse":false
+      "recurse": false
     }
 
 data.json
 ::
-    { “img”: <image_name>, “filename”: <file_name> }
+    { “img”: "/tmp/upgrade.img.gz", “filename”: "upgrade.img.gz" }
